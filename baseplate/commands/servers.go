@@ -1,7 +1,7 @@
 package commands
 
 import (
-	pb "viper/protos/cmds"
+	pb "cmder/protos/cmds"
 )
 
 type AgentManagerServer struct {

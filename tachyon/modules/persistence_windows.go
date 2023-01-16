@@ -7,10 +7,10 @@ import (
 	"os"
 	"os/exec"
 	"syscall"
-	"viper"
+	"cmder"
 )
 
-var conf = &viper.Conf.Agent.Persistence
+var conf = &cmder.Conf.Agent.Persistence
 
 func moveAgentExecutable(currentAgentPath string) error {
 	agentFile, err := os.Open(currentAgentPath)

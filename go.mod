@@ -1,4 +1,4 @@
-module viper
+module cmder
 
 go 1.18
 

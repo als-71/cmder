@@ -2,7 +2,7 @@ package modules
 
 import (
 	"log"
-	pb "viper/protos/cmds"
+	pb "cmder/protos/cmds"
 )
 
 func RunEchoCommand(req *pb.EchoCommandRequest) *pb.EchoCommandResponse {

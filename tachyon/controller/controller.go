@@ -8,8 +8,8 @@ import (
 	"log"
 	"net"
 	"time"
-	"viper"
-	pb "viper/protos/cmds"
+	"cmder"
+	pb "cmder/protos/cmds"
 
 	"github.com/hashicorp/yamux"
 	"google.golang.org/protobuf/proto"
@@ -22,7 +22,7 @@ type Controller struct {
 }
 
 func (cnc *Controller) Connect() {
-	certBuffers := viper.Conf.Agent.Cert
+	certBuffers := cmder.Conf.Agent.Cert
 	cert, err := tls.X509KeyPair([]byte(certBuffers.Cert), []byte(certBuffers.Key))
 	if err != nil {
 		log.Fatalf("failed to load certificate: %v", err)

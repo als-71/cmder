@@ -3,8 +3,8 @@ package commands
 import (
 	"context"
 	"log"
-	"viper/controller/agents"
-	pb "viper/protos/cmds"
+	"cmder/controller/agents"
+	pb "cmder/protos/cmds"
 )
 
 func (s *AgentManagerServer) Screenshot(ctx context.Context, req *pb.ScreenshotRequest) (*pb.ScreenshotResponse, error) {

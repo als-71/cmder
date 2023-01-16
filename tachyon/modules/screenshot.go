@@ -8,7 +8,7 @@ import (
 	"image/png"
 	"io"
 	"log"
-	pb "viper/protos/cmds"
+	pb "cmder/protos/cmds"
 
 	"github.com/kbinani/screenshot"
 )

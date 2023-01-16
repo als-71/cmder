@@ -2,8 +2,8 @@ package commands
 
 import (
 	"log"
-	"viper/controller/agents"
-	pb "viper/protos/cmds"
+	"cmder/controller/agents"
+	pb "cmder/protos/cmds"
 )
 
 func (s *AgentManagerServer) GetAgents(req *pb.GetAgentsRequest, stream pb.AgentManager_GetAgentsServer) error {

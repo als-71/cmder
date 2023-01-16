@@ -3,8 +3,8 @@ package commands
 import (
 	"context"
 	"log"
-	"viper/controller/agents"
-	pb "viper/protos/cmds"
+	"cmder/controller/agents"
+	pb "cmder/protos/cmds"
 )
 
 func (s *AgentManagerServer) RunEchoCommand(ctx context.Context, req *pb.EchoCommandRequest) (*pb.EchoCommandResponse, error) {

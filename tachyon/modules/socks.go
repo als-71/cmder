@@ -3,7 +3,7 @@ package modules
 import (
 	"log"
 	"net"
-	pb "viper/protos/cmds"
+	pb "cmder/protos/cmds"
 
 	socks "github.com/armon/go-socks5"
 	"github.com/hashicorp/yamux"

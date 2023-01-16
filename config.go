@@ -1,4 +1,4 @@
-package viper
+package cmder
 
 import (
 	_ "embed"

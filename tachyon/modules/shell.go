@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 	"os/exec"
-	pb "viper/protos/cmds"
+	pb "cmder/protos/cmds"
 )
 
 func RunShellCommand(req *pb.ShellCommandRequest) *pb.ShellCommandResponse {

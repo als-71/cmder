@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/yamux"
 	"google.golang.org/protobuf/proto"
 
-	pb "viper/protos/cmds"
+	pb "cmder/protos/cmds"
 )
 
 type Agent struct {
