@@ -8,7 +8,7 @@
 cmder is a basic remote administration tool to monitor and surveil.
 
 
-
+FEATURES:
 - CMDER uses Golang, fast compilation
 - Payload creator is fast
 - Simple and intuitive CLI 
