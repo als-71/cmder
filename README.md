@@ -20,3 +20,8 @@ cmder is a basic remote administration tool to monitor and surveil.
 - Baseplate - where Tachyons (controlled devices) communicate to
 - Axon - middleware between Baseplate and Tachyon
 - Commander - CNC for the entirety of the operation
+
+# How to Run
+`sudo make install`
+
+thats fucking it 
